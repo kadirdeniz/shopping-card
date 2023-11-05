@@ -1,0 +1,78 @@
+[
+ {
+  "result": true,
+  "message": "Item added to cart successfully"
+ },
+ {
+  "result": true,
+  "message": "Item added to cart successfully"
+ },
+ {
+  "result": true,
+  "message": "Item added to cart successfully"
+ },
+ {
+  "result": true,
+  "message": "Vas item added to item successfully"
+ },
+ {
+  "result": true,
+  "message": {
+   "totalPrice": 1305.5,
+   "items": [
+    {
+     "itemId": 1,
+     "categoryId": 1001,
+     "sellerId": 3,
+     "price": 500.25,
+     "quantity": 1,
+     "ItemVases": [
+      {
+       "itemId": 0,
+       "categoryId": 3242,
+       "sellerId": 5003,
+       "price": 5.25,
+       "quantity": 1,
+       "vasItemId": 1
+      }
+     ]
+    },
+    {
+     "itemId": 2,
+     "categoryId": 7889,
+     "sellerId": 2,
+     "price": 200,
+     "quantity": 2,
+     "ItemVases": null
+    },
+    {
+     "itemId": 3,
+     "categoryId": 1,
+     "sellerId": 4,
+     "price": 200,
+     "quantity": 2,
+     "ItemVases": null
+    }
+   ],
+   "appliedPromotionId": 1232,
+   "totalDiscount": 250
+  }
+ },
+ {
+  "result": false,
+  "message": "item not found"
+ },
+ {
+  "result": true,
+  "message": "Cart reset successfully"
+ },
+ {
+  "result": true,
+  "message": {
+   "totalPrice": 0,
+   "items": null,
+   "appliedPromotionId": 1232,
+   "totalDiscount": 250
+  }
+ }
+]
